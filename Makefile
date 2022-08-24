@@ -2,8 +2,8 @@ CXX = g++
 raylib = raylib/src
 
 
-executable: ./src/*.cpp ./src/States/*.cpp ./src/Breakout/*.cpp
-	${CXX} ./src/*.cpp ./src/States/*.cpp ./src/Breakout/*.cpp -o executable -L${raylib} -I${raylib} -lraylib -ldl -lpthread
+executable: ./src/*.cpp ./src/States/*.cpp ./src/Breakout/*.cpp ./src/Matrix/*.cpp
+	${CXX} ./src/*.cpp ./src/States/*.cpp ./src/Breakout/*.cpp ./src/Matrix/*.cpp -o executable -L${raylib} -I${raylib} -lraylib -ldl -lpthread
 
 
 # require EMSDK to be in the PATH
