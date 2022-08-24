@@ -7,6 +7,7 @@
 #include "player.h"
 #include "brick.h"
 
+//TODO: rewrite this in a better way
 class Breakout {
     public:
     Breakout();
